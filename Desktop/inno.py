@@ -43,5 +43,8 @@ def get_similarity(a, b):
     return get_cosine(a, b)
 
 
-c=get_similarity('ducan fereto', 'ducan b fereto')
+c=get_similarity('ducan jr t', 'ducan jr n')
+
 print(c)
+if(c>0.9):
+    print("Same person")
