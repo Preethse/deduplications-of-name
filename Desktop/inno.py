@@ -48,3 +48,5 @@ c=get_similarity('ducan jr t', 'ducan jr n')
 print(c)
 if(c>0.9):
     print("Same person")
+else
+    print("not same person")
